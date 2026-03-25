@@ -1,0 +1,13 @@
+{
+  "name": "evm_debug_skills",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:reference": "node ./tools/build-chains-reference.mjs",
+    "test": "node --test ./tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@mariozechner/pi-coding-agent": "^0.62.0"
+  }
+}
