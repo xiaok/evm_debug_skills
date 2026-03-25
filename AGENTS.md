@@ -3,3 +3,4 @@
 3. 所有有关 skill 的文件放在 ./skills 下面，我要确保 skills 最终是一个直接可交付的版本；和 skill 本身不相关的外部文件不要放在 ./skills 下方
 4. SKILL.md 本身当前先使用中文写，方便我阅读，最后我会让你统一翻译成英文
 5. 测试使用 pi-sdk 测试（已经配置好 provider）
+6. 因为测试会跑 coding agent，所以非常缓慢，测试时尽量只跑一个测试函数，不要全量跑 npm test，也尽量不要 npm test 整个文件，尽量跑一个函数
